@@ -1,0 +1,204 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    display: flex;
+    text-align:center;
+    margin:auto;
+    flex:1;
+    height:auto;
+    
+
+}
+
+#main{
+    background-image:linear-gradient(#0f2027,#203a43,#2c5364);
+    /* width: 100%; */
+}
+#title{
+    display: flex;
+    font-family: 'Marcellus SC', serif;
+    font-size:3rem;
+    margin:auto;
+    display: block;
+    color:#104358;
+    flex:1;
+    
+}
+p{
+    font-size:1.5rem;
+    color:#6c7f88;
+}
+
+.image-back{
+    background:#51707e;
+    margin: auto;
+    height: auto;
+    box-shadow: 15px 10px 15px 10px #0b3447; 
+
+}
+
+
+
+    #image{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+
+    max-width:65vw;   
+    max-height: 65vh;
+    width: auto; 
+    height: auto;
+    box-shadow: 15px 10px 15px 10px #132831; 
+
+}
+
+#img-caption {
+    color:#6c7f88;
+    text-align: center;
+    padding:10px;
+    font-style: oblique;
+}
+
+segment {
+    display: flex;
+    padding:100px;
+    line-height: 1.5rem;
+    text-align: center;
+
+}
+
+
+
+#tribute-info{
+    width:100%;
+    height:auto;
+    display: block;
+    text-align: center;
+    padding:2.5rem;
+    line-height: 3.5rem;
+}
+
+
+#logo-container{
+    display:block;
+    width:100%;
+    height:auto;
+    flex:1;
+}
+#logo{
+    width:150px;
+    height:150px;
+}
+
+#isro{
+    width:150px;
+    height:150px;
+    
+}
+
+
+
+ul{
+    list-style-type: none;
+    color:#60b6dd;
+}
+h2{
+    color:#008ab8cc ;
+    font-size:30;
+} 
+
+
+@media screen and (max-width:1024px)
+{
+
+    header{
+    flex-direction: column;
+    
+    }
+
+    #logo{
+        height:auto;
+    } 
+
+     #isro{
+        height:auto;
+    } 
+    .image-back{
+        flex-direction: column;
+        height:auto;
+
+    }
+
+
+
+    #image{
+        flex-direction: column;
+        height:auto ;
+    }
+
+    #img-caption {
+        flex-direction: column;
+        display: flex;
+        font-size: 18px;
+        text-align: center;
+        padding:5px;
+    }
+
+    #tribute-info{
+        line-height: 3.5rem;
+        margin:auto;
+    }
+}
+
+@media screen and (max-width:600px)
+{
+
+    header{
+    flex-direction: column;
+    
+    }
+   
+
+    #logo{
+        height:auto;
+    }
+    #isro{
+        height:auto;
+    }
+
+
+    .image-back{
+        flex-direction: column;
+        height:auto;
+
+    }
+
+
+    #image{
+        flex-direction: column;
+        height:auto ;
+         max-width:370px;  
+    }
+    #img-caption {
+        flex-direction: column;
+        font-size: 10px;
+        text-align: left;
+        margin: 0 0 0 40;
+        
+        
+    }
+    #tribute-info{
+        line-height: 1.50;
+        padding:15px;
+        margin:50 0 0 0;
+        line-height: 2.5rem;
+    }
+} 
+
+
